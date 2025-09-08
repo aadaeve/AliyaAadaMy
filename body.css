@@ -65,9 +65,12 @@ order: 0;
 flex-grow: 0;
 }
 .button {
+display: flex;
 width: 200px;
 padding: 16px 20px; 
 background-color: #E6B300;
+font-size: 20px;
+text-align: center;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 color: white;
 border: 0;
