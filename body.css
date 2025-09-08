@@ -16,13 +16,16 @@ body {
     transform: translate(-50%, -50%); 
 }
 img {
+<<<<<<< HEAD
     width: 100%; 
     max-height: auto;
     filter: brightness(50%);
+=======
 width: 90%; 
 margin: 0px 5%;
 max-height: auto;
 filter: brightness(50%);
+>>>>>>> 6a9e7cf72e6096afbffaf3f57264ffe20463a826
 }
 .welcome {
     display: flex; 
