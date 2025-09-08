@@ -1,37 +1,37 @@
 body {
-width: 100%;
-height: 100vh;
-margin: 0;
-background-color: white;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
 }
 .image-container {
-position: relative;
+    position: relative;
 }
 .text-in-img {
-display: grid;
-gap: 10px;
-position: absolute; 
-top: 50%; 
-left: 50%; 
-transform: translate(-50%, -50%); 
+    display: grid;
+    gap: 10px;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
 }
 img {
-width: 90%; 
-margin: 0px 5%;
-max-height: auto;
-filter: brightness(50%);
+    width: 90%; 
+    margin: 0px 5%;
+    max-height: auto;
+    filter: brightness(50%);
 }
 .welcome {
-display: flex; 
-flex-direction: column; 
-text-align: center; 
-padding: 0px; 
-gap: 39px; 
-width: 728px; 
-font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
-color: white;
-font-size: 50px;
-margin: 0px auto;
+    display: flex; 
+    flex-direction: column; 
+    text-align: center; 
+    padding: 0px; 
+    gap: 39px; 
+    width: 728px; 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    color: white;
+    font-size: 50px;
+    margin: 0px auto;
 }
 .text {
 display: flex; 
@@ -46,8 +46,8 @@ font-size: 25px;
 margin: 0px auto;
 }
 div {
-width: 100%;
-gap: 30px;
+    width: 100%;
+    gap: 30px;
 }
 .paragrah {
 width: 80%;
