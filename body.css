@@ -1,26 +1,39 @@
+body {
+width: 100%;
+height: 100vh;
+margin: 0;
+background-color: white;
+}
+.image-container {
+position: relative;
+}
+.text-in-img {
+display: grid;
+gap: 10px;
+position: absolute; 
+top: 50%; 
+left: 50%; 
+transform: translate(-50%, -50%); 
+}
 img {
-    width: 100%; 
-    max-height: auto;
-    position: relative;
-    filter: brightness(50%);
+width: 100%; 
+max-height: auto;
+filter: brightness(50%);
 }
 .welcome {
-     display: flex; 
-    flex-direction: column; 
-    text-align: center; 
-    padding: 0px; 
-    gap: 39px; 
-    position: absolute; 
-    width: 728px; 
-    height: 50%; 
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
-    color: white;
-    font-size: 50px;
+display: flex; 
+flex-direction: column; 
+text-align: center; 
+padding: 0px; 
+gap: 39px; 
+width: 728px; 
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+color: white;
+font-size: 50px;
+margin: 0px auto;
 }
 .text {
+<<<<<<< HEAD
     display: flex; 
     flex-direction: column; 
     text-align: center; 
@@ -35,11 +48,25 @@ img {
     font-family:'Courier New', Courier, monospace; 
     color: white;
     font-size: 25px;
+=======
+display: flex; 
+flex-direction: column; 
+text-align: center; 
+padding: 0px; 
+gap: 39px; 
+width: 728px;
+font-family:'Courier New', Courier, monospace; 
+color: white;
+font-size: 25px;
+margin: 0px auto;
+>>>>>>> be0dede5e9cc5048952f0de48ae6a0bfdb54d5bb
 }
 div {
-    width: 100%;
+width: 100%;
+gap: 30px;
 }
 .paragrah {
+<<<<<<< HEAD
     width: 80%;
     height: fit-content;
     font-family: Poppins;
@@ -79,4 +106,27 @@ button {
     flex-grow: 0;
     text-align: center;
     margin: 0 auto;    
+=======
+width: 80%;
+height: fit-content;
+font-family: Poppins;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 0.5px;
+color: #36384E;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.button {
+width: 200px;
+padding: 16px 20px; 
+background-color: #E6B300;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: white;
+border: 0;
+>>>>>>> be0dede5e9cc5048952f0de48ae6a0bfdb54d5bb
 }
