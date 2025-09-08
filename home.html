@@ -30,26 +30,34 @@
     <footer> 
         <h2>Subscribe to our newsletter</h2> 
         <p>Get expert advice for your journey to university delivered to your inbox each month. It's short, and worthwhile – we promise!</p> 
+        <!-- Form submission is set to action_page.php, but since we don’t have that file,
+        nothing will actually be saved. This is just a placeholder -->
         <form action="/action_page.php"> 
         <div class="form-group"> 
-                <div class="col-sm-4"> 
-                    <label for="email"></label> 
-                    <input type="text" class="form-control" id="email" required placeholder="Email address"> 
-                </div> 
-                <div class="form-group check"> 
-                    <input type="checkbox" id="box"> 
-                    <label for="box">I confirm I am over 16 and I agree to the Terms and Conditions and Privacy Notice.</label> 
-                </div> 
+            <!-- e-mail -->
+            <div class="col-sm-4"> 
+                <label for="email"></label> 
+                <input type="text" class="form-control" id="email" required placeholder="Email address"> 
             </div> 
-            <button type="submit" class="btn btn-default">SUBSCRIBE NOW</button> 
+            <!-- checkbox -->
+            <div class="form-group check"> 
+                <input type="checkbox" id="box"> 
+                <label for="box">I confirm I am over 16 and I agree to the Terms and Conditions and Privacy Notice.</label> 
+            </div> 
+        </div> 
+        <!-- where the user submits the information -->
+        <button type="submit" class="btn btn-default">SUBSCRIBE NOW</button> 
         </form> 
-        <hr> 
+        <!-- hr adds a line beneath the "SUBSCRIBE NOW" button -->
+        <hr>
+        <!-- Social media icons -->
         <div class="socialmedia"> 
             <a href="#" class="fa fa-facebook"></a> 
             <a href="#" class="fa fa-instagram"></a> 
             <a href="#" class="fa fa-twitter"></a> 
             <a href="#" class="fa fa-linkedin"></a> 
         </div> 
+        <!-- links under the social media icons -->
         <div class="links"> 
             <a href="#">About</a> 
             <a href="#">Contact Us</a> 

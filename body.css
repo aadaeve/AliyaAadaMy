@@ -21,7 +21,7 @@ img {
     font-size: 50px;
 }
 .text {
-     display: flex; 
+    display: flex; 
     flex-direction: column; 
     text-align: center; 
     padding: 0px; 
@@ -41,40 +41,42 @@ div {
 }
 .paragrah {
     width: 80%;
-height: fit-content;
-font-family: Poppins;
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 30px;
-text-align: center;
-letter-spacing: 0.5px;
-color: #36384E;
-flex: none;
-order: 0;
-flex-grow: 0;
+    height: fit-content;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #36384E;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 button {
- width: 200px;
-padding: 16px 20px; 
-background-color: #E6B300;
-font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-color: white;
-border: 0;
+    width: 200px;
+    padding: 16px 20px; 
+    background-color: #E6B300;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    border: 0;
+    display: block !important;
+    margin: 0 auto !important;
 }
 .subscribe {
-width: 80%;
-font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 40px;
-line-height: 20px;
-display: flex;
-font-feature-settings: 'liga' off;
-color: #FFFFFF;
-flex: none;
-order: 0;
-flex-grow: 0;
-text-align: center;
-margin: 0 auto;    
+    width: 80%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 20px;
+    display: flex;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-align: center;
+    margin: 0 auto;    
 }

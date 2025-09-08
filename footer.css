@@ -13,6 +13,8 @@ p {
 }
 
 h2 {
+    padding-top: 2.5%;
+    margin-top: 3% !important;
     text-align: center;
     color: white !important;
     margin-bottom: 1% !important;
@@ -40,14 +42,17 @@ h2 {
     margin-bottom: 2% !important;
 }
 
-button {
+.btn-default {
     display: block !important;
     margin: 0 auto !important;
     border-radius: 0 !important;
     background-color: #a09c94;
     color: white;
     width: 10%;
+    margin-bottom: 2%;
 }
+
+/* line adjustments */
 
 hr {
     border: none;
@@ -57,13 +62,17 @@ hr {
     margin: 20px auto;
 }
 
+/* social media icons */
+
 .fa {
     margin-top: 0.5% !important;
-    padding: 8px;
-    width: 1.7%;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 5px 10px;
+    font-size: 30px !important;
 }
 
 .socialmedia {
@@ -92,6 +101,8 @@ hr {
     border-radius: 20%;
 }
 
+/* social media icons end */
+
 .links {
     margin-top: 0.5%;
     display: flex;
@@ -104,6 +115,8 @@ hr {
     color: white;
 }
 
+/* last paragraph will have some space under it */
+
 .end {
-    margin-bottom: 2% !important;
+    padding-bottom: 0.8%;
 }
