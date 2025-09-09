@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="body.css">
     <link rel="stylesheet" href="footer.css"> 
+    <link rel="stylesheet" href="nav.css">
     <!-- This is for the social media icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
@@ -16,6 +17,25 @@
     <title>Document</title>
 </head>
 <body>
+
+    <div class="topnav">
+
+        <a style="font-size: 20px;">Mrs. College Guide</a>
+   
+        <div class="nav-center">
+            <a href="#universities">Universities</a>
+            <a href="#courses">Courses</a>
+            <a href="#community">Community</a>
+            <a href="#news">News</a>
+            <a href="#about">About</a>
+        </div>
+
+        <div class="nav-right">
+            <button class="button1">LOGIN</button>
+            <button class="button2">SIGN UP</button>
+        </div>
+    </div>
+
     <div class="image-container">
         <img src="https://www.forbes.com/advisor/wp-content/uploads/2023/07/college-campus.jpeg.jpg">
         <div class="text-in-img">
@@ -41,11 +61,11 @@
             <!-- e-mail -->
             <div class="col-sm-4"> 
                 <label for="email"></label> 
-                <input type="text" class="form-control" id="email" required placeholder="Email address"> 
+                <input type="text" class="form-control" id="email" placeholder="Email address" required> 
             </div> 
             <!-- checkbox -->
             <div class="form-group check"> 
-                <input type="checkbox" id="box"> 
+                <input type="checkbox" id="box" required> 
                 <label for="box">I confirm I am over 16 and I agree to the Terms and Conditions and Privacy Notice.</label> 
             </div> 
         </div> 
