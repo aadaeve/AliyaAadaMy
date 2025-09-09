@@ -66,8 +66,9 @@ flex-grow: 0;
 }
 .button {
 display: flex;
-width: 200px;
-padding: 16px 20px; 
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 40px; 
 background-color: #E6B300;
 font-size: 20px;
 text-align: center;
